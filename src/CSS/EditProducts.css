@@ -1,0 +1,51 @@
+/*Edit  Products file css*/
+
+.editbtn_products {
+  font-size: 20px;
+}
+
+.editproduct_items {
+  margin: 50px 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .product_items {
+    margin: 15px 30px;
+  }
+  .editproduct_items {
+    margin: 0 40px;
+  }
+  .editbtn_products {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .product_items {
+    margin: 25px 30px;
+  }
+  .editproduct_items {
+    margin:30px 0;
+  }
+}
+
+/* EditProducts */
+
+.editcardimg {
+  margin: 0 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .ebtn_details {
+    position: relative;
+    /* left: 17rem;
+      top: -4rem; */
+  }
+  .dbtn_details {
+    position: relative;
+    /* left: 12.3rem;
+      top: -1rem; */
+  }
+  .cardimg {
+    margin: 0px;
+  }
+}

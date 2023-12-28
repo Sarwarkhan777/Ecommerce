@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 400px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #575757;
+  margin-left: 25px;
+}
+.label {
+  font-size: 20px;
+  color: #575757;
+}
+.registration-form {
+  text-align: center;
+}
+.registration-form input {
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1.8px solid #8b8b8b;
+  border-radius: 5px;
+}
+.btn-submit,
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
+.haveaccount {
+  text-align: center;
+  margin: 20px;
+  font-size: 17px;
+  color: #575757;
+}
+.login-form {
+  text-align: center;
+}
+.login-form input,#discription {
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1.8px solid #8b8b8b;
+  border-radius: 5px;
+}
+.error {
+  color: rgb(176, 0, 0);
+  font-size: 17px;
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 300px;
+  }
+}
